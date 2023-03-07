@@ -1,0 +1,156 @@
+* {
+    box-sizing: border-box;
+    background-color: white;
+}
+
+.app-container {
+
+    width: 90%;
+    border-radius: 8px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.heading {
+
+    font-family: "PT Serif";
+    color: black;
+    font-size: 32px;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.content {
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 1rem;
+    width: 85%;
+}
+
+.sub-content {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.header-right-container {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.header-left-container {
+    width: 50%;
+    font-size: 1rem;
+    font-family: "PT Serif";
+    font-weight: 720;
+}
+
+.images-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.image {
+    width: 77%;
+}
+
+.section-container {
+    display: flex;
+    flex-direction: column;
+    width: 33.3%;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.section-down-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.extral-class {
+    margin-top: 78px;
+}
+
+.sub-class {
+    margin-top: 0px;
+}
+
+.designation {
+    transform-origin: top left;
+    align-self: flex-start;
+    margin-left: 8%;
+    text-transform: uppercase;
+    white-space: nowrap;
+    font-family: "PT Serif";
+    font-style: normal;
+    font-weight: 650;
+    font-size: 0.8rem;
+    transform: rotate(90deg);
+}
+
+.developer {
+    line-height: 27px;
+    color: #000000;
+    margin-bottom: 32px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+@media screen and (max-width: 768px) {
+    .header-container {
+        flex-direction: column;
+    }
+
+    .header-left-container {
+        width: 100%;
+    }
+
+    .image {
+        width: 80%;
+    }
+
+    .designation {
+        margin-left: 7%;
+    }
+
+    .developer {
+        font-size: 14px;
+    }
+
+    .header-right-container {
+        width: 100%;
+    }
+
+    .section-container {
+        flex-grow: 1;
+        flex-shrink: 1;
+        margin-left: 2rem;
+        width: 40%;
+    }
+
+    .extral-class {
+        margin-top: 0px;
+    }
+
+    .sub-class {
+        margin-top: 70px;
+    }
+
+    .content {
+        font-size: 1rem;
+    }
+}
