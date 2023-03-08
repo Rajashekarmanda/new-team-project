@@ -88,7 +88,7 @@
 .designation {
     transform-origin: top left;
     align-self: flex-start;
-    margin-left: 4%;
+    margin-left: 12%;
     text-transform: uppercase;
     white-space: nowrap;
     font-family: "PT Serif";
