@@ -1,1 +1,3 @@
-# new-team-project
+# TEAM - Responsive Web Design
+
+

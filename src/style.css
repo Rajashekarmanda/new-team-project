@@ -45,6 +45,7 @@
 }
 
 .header-left-container {
+    /* display: flex; */
     width: 50%;
     font-size: 1rem;
     font-family: "PT Serif";
@@ -52,6 +53,7 @@
 }
 
 .images-container {
+    /* display: flex; */
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -64,6 +66,7 @@
 }
 
 .section-container {
+    /* display: flex; */
     display: flex;
     flex-direction: column;
     width: 33.3%;
@@ -78,17 +81,19 @@
 }
 
 .extral-class {
+    /* display: flex; */
     margin-top: 78px;
 }
 
 .sub-class {
+    /* display: flex; */
     margin-top: 0px;
 }
 
 .designation {
     transform-origin: top left;
     align-self: flex-start;
-    margin-left: 12%;
+    margin-left: 10%;
     text-transform: uppercase;
     white-space: nowrap;
     font-family: "PT Serif";
@@ -118,19 +123,28 @@
 
 @media screen and (max-width: 768px) {
     .header-container {
+        /* margin-left: -15%; */
         flex-direction: column;
+        /* border: 1px solid black; */
+        /* display: flex; */
     }
 
     .header-left-container {
+        /* margin-left: -15%; */
         width: 100%;
+        /* display: flex; */
+        /* border: 1px solid black; */
     }
 
     .image {
+        /* margin-left: -15%; */
         width: 80%;
+        /* border: 1px solid black; */
     }
 
     .designation {
         margin-left: 12%;
+        /* border: 1px solid black; */
     }
 
     .developer {
@@ -143,11 +157,11 @@
 
     .header-right-container {
         width: 100%;
+        /* border: 1px solid black; */
     }
 
     .section-container {
-        /* flex-grow: 1;
-        flex-shrink: 1; */
+        /* display: flex; */
         margin-left: 2rem;
         width: 40%;
         /* border: 1px solid red; */
@@ -155,10 +169,12 @@
 
     .extral-class {
         margin-top: 0px;
+        /* border: 1px solid black; */
     }
 
     .sub-class {
         margin-top: 70px;
+        /* border: 1px solid black; */
     }
 
     .id {
@@ -172,8 +188,10 @@
 
     .content {
         font-size: 1rem;
+        /* border: 1px solid black; */
     }
     .sub-content {
         font-size: 25px;
+        /* border: 1px solid black; */
     }
 }
