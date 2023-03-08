@@ -1,10 +1,8 @@
 * {
     box-sizing: border-box;
-    background-color: white;
 }
 
 .app-container {
-
     width: 90%;
     border-radius: 8px;
     margin: 0 auto;
@@ -13,10 +11,9 @@
 }
 
 .heading {
-
     font-family: "PT Serif";
     color: black;
-    font-size: 32px;
+    font-size: 3.2rem;
 }
 
 .header-container {
@@ -29,7 +26,7 @@
 .content {
     font-family: "Poppins";
     font-weight: 400;
-    font-size: 1rem;
+    font-size: 1.25rem;
     width: 85%;
 }
 
@@ -37,7 +34,7 @@
     font-family: "Poppins";
     font-style: normal;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 1.7rem;
     text-transform: uppercase;
 }
 
@@ -63,6 +60,7 @@
 
 .image {
     width: 77%;
+    border-radius: 4%;
 }
 
 .section-container {
@@ -90,12 +88,12 @@
 .designation {
     transform-origin: top left;
     align-self: flex-start;
-    margin-left: 8%;
+    margin-left: 4%;
     text-transform: uppercase;
     white-space: nowrap;
     font-family: "PT Serif";
     font-style: normal;
-    font-weight: 650;
+    font-weight: 450;
     font-size: 0.8rem;
     transform: rotate(90deg);
 }
@@ -106,8 +104,16 @@
     margin-bottom: 32px;
     font-family: "Poppins";
     font-style: normal;
-    font-weight: 600;
+    font-weight: 750;
     font-size: 18px;
+}
+.id {
+    text-align: center;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-weight: 500;
+    color: black;
+
 }
 
 @media screen and (max-width: 768px) {
@@ -124,11 +130,15 @@
     }
 
     .designation {
-        margin-left: 7%;
+        margin-left: 12%;
     }
 
     .developer {
-        font-size: 14px;
+        font-size: 1rem;
+        /* margin-left: -28%; */
+        /* border: 1px solid black; */
+        margin-left: -15%;
+        width: 50%;
     }
 
     .header-right-container {
@@ -136,10 +146,11 @@
     }
 
     .section-container {
-        flex-grow: 1;
-        flex-shrink: 1;
+        /* flex-grow: 1;
+        flex-shrink: 1; */
         margin-left: 2rem;
         width: 40%;
+        /* border: 1px solid red; */
     }
 
     .extral-class {
@@ -150,7 +161,19 @@
         margin-top: 70px;
     }
 
+    .id {
+        text-align: center;
+        font-family: Poppins;
+        font-size: 0.6rem;
+        font-weight: 500;
+        color: black;
+        
+    }
+
     .content {
         font-size: 1rem;
+    }
+    .sub-content {
+        font-size: 25px;
     }
 }
